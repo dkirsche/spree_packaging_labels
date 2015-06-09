@@ -1,0 +1,40 @@
+	<body>
+<section class="admin_panel">    
+<div class="medium-9 columns">
+  <div class="booking">
+    <% @orders.each do |order| %>
+          <table class="items">
+              <thead>
+                  <tr>
+                      <th colspan="2" class="text-center" style="vertical-align:bottom;"><%=order.ship_address.firstname%>  <%=order.ship_address.lastname%></th>
+                      <th colspan="3" class="text-center" style="vertical-align:bottom;">1/1</th>
+                  </tr>
+                  <tr>
+                      <th colspan="2" class="text-center">Phone: <%=order.ship_address.phone%></th>
+                      <th colspan="3" class="text-center">total: <%=order.total%></th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr class="names">
+                      <td>&nbsp;</td>
+                      <td nowrap="nowrap">product name </td>
+                      <td> quantity </td>
+                      <td nowrap="nowrap"> unit price </td>
+                      <td> total </td>
+                  </tr>
+                  <% order.line_items.each do |line_item|%>
+                    <tr class="item">
+                        <td nowrap="nowrap"><img ng-src="static/img/{{firstLetter(b)}}.png" ng-show="b.animal"></td>
+                        <td nowrap="nowrap"><%=line_item.product.name%></td>
+                        <td nowrap="nowrap"><%=line_item.quantity%></td>
+                        <td nowrap="nowrap"><%=line_item.price%></td>
+                        <td ><%=line_item.amount%></td>
+                    </tr>
+                  <%end%>
+              </tbody>
+          </table>
+      <%end%>
+  </div>
+</div>
+</section>
+</body>

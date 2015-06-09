@@ -16,5 +16,10 @@ module SpreePackingLabels
     end
 
     config.to_prepare &method(:activate).to_proc
+
+    initializer "spree_packing_labels.assets.precompile" do |app|
+    app.config.assets.precompile += %w( spree_packing_labels/foundation.css )
+    app.config.assets.precompile += %w( spree_packing_labels/app.css )
+end
   end
 end

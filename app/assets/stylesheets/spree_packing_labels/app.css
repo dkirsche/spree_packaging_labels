@@ -1,0 +1,187 @@
+.footer {
+  float: left;
+  clear: both;
+  display: none; }
+
+.nospace {
+  margin: 0;
+  padding: 0; }
+
+.admin_panel hr {
+  height: 1px;
+  margin: 5px 0; }
+.admin_panel h1 {
+  color: #51b44a;
+  border-bottom: 1px solid #7bc516; }
+  .admin_panel h1 small {
+    font-size: 12px;
+    color: #3c95e8; }
+.admin_panel .act {
+  margin: 0 0.12rem; }
+.admin_panel .animal {
+  margin-left: 0.9357rem; }
+.admin_panel .row {
+  max-width: 100%; }
+.admin_panel .breadcrumbs {
+  margin-bottom: 10px; }
+.admin_panel .side-nav {
+  padding: 0;
+  background-color: #efefef; }
+.admin_panel table {
+  width: 100%; }
+.admin_panel .product {
+  font-size: 75%; }
+  .admin_panel .product .even {
+    background-color: #efefef; }
+.admin_panel .printOrders {
+  width: 1123px;
+  height: 794px; }
+.admin_panel .orderList {
+  font-size: 85%; }
+.admin_panel .highlight {
+  color: #f04124; }
+.admin_panel .space {
+  width: 100%;
+  height: 10mm; }
+.admin_panel .booking {
+  font-size: 10px;
+  width: 835px;
+  height: 279.4mm;
+  float: left; }
+  .admin_panel .booking .items {
+    float: left;
+    width: 395px;
+    margin-top: 2mm;
+    border: 1px solid red;
+    margin-left: 3.9mm; }
+    .admin_panel .booking .items th {
+      height: 10.5mm;
+      padding: 0;
+      vertical-align: middle; }
+    .admin_panel .booking .items .names {
+      height: 25px; }
+    .admin_panel .booking .items td {
+      padding: 0;
+      font-size: 13px;
+      height: 12.5mm;
+      vertical-align: middle;
+      border-bottom: 1px dashed gray; }
+    .admin_panel .booking .items img {
+      float: left;
+      margin: 1mm;
+      width: 35px;
+      height: 35px; }
+    .admin_panel .booking .items .w51 {
+      width: 51px; }
+.admin_panel .customer {
+  margin-left: 0.9357rem; }
+  .admin_panel .customer .header {
+    border-bottom: 1px solid #efefef; }
+  .admin_panel .customer .row .columns {
+    font-size: 85%; }
+.admin_panel .detail .columns {
+  font-size: 80%;
+  color: gray; }
+.admin_panel .detail .userInfo {
+  float: left;
+  font-size: 80%;
+  color: gray;
+  margin-bottom: 0.9357rem; }
+.admin_panel .detail .updateBook {
+  float: right;
+  clear: right; }
+.admin_panel .welcome img {
+  max-width: 30rem; }
+.admin_panel .mous .columns {
+  font-size: 85%; }
+.admin_panel .categories .columns {
+  font-size: 85%; }
+
+.login {
+  background: transparent url(../img/login.jpeg) center top no-repeat; }
+
+.coryright {
+  font-size: 65%;
+  color: #e76754; }
+
+.logo {
+  width: 13rem; }
+
+.order_panel .fi-telephone {
+  color: #a6cd49;
+  font-size: 120%; }
+.order_panel .summary {
+  background-color: #ffd518; }
+.order_panel .checkoutBtn {
+  background-color: #aaf525; }
+.order_panel .orders {
+  padding: 0 0.9357rem; }
+  .order_panel .orders table {
+    width: 100%; }
+    .order_panel .orders table .icon {
+      width: 12mm; }
+    .order_panel .orders table tr td .nospace {
+      margin: 0;
+      padding: 0;
+      width: 12mm; }
+.order_panel .checkout {
+  font-size: 90%; }
+  .order_panel .checkout .row {
+    border-bottom: 1px dashed #efefef;
+    padding: 0 0.9357rem; }
+  .order_panel .checkout .icon {
+    width: 1.4rem;
+    height: 1.4rem; }
+  .order_panel .checkout .checkout-guest {
+    width: 100%;
+    background-color: #efefef;
+    position: absolute;
+    bottom: 0;
+    display: none; }
+    .order_panel .checkout .checkout-guest .columns {
+      font-size: 100%;
+      padding: 0; }
+    .order_panel .checkout .checkout-guest label.inline {
+      padding: 0;
+      margin: 0; }
+.order_panel .row {
+  max-width: 100%; }
+.order_panel .column {
+  padding: 0; }
+  .order_panel .column .small-3 .button.tiny {
+    padding: 2px 5px; }
+.order_panel .columns {
+  padding: 0; }
+  .order_panel .columns .small-3 .button.tiny {
+    padding: 2px 5px; }
+.order_panel .thanks .columns {
+  padding: 0 0.9357rem;
+  color: gray; }
+.order_panel .thanks .collapse .columns {
+  padding: 0; }
+.order_panel .order {
+  color: red; }
+.order_panel .producttitle {
+  border-bottom: 1px dashed #efefef; }
+.order_panel .accordion .active .row {
+  padding: 7px 0;
+  margin-left: 0.23rem;
+  height: auto;
+  border-bottom: 1px dashed #efefef; }
+  .order_panel .accordion .active .row .button {
+    margin-bottom: 0; }
+.order_panel .accordion .active .columns {
+  font-size: 75%; }
+.order_panel .accordion .active .button.tiny {
+  font-size: 120%; }
+.order_panel .accordion .icon {
+  width: 1.87rem;
+  height: 1.87rem; }
+.order_panel .accordion .content {
+  margin-top: 20px; }
+
+@media print {
+  .items {
+    page-break-after: avoid;
+    page-break-before: avoid;
+    page-break-inside: avoid; } }
