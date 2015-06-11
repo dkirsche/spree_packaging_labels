@@ -3,8 +3,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_packing_labels'
   s.version     = '3.0.1'
-  s.summary     = 'TODO: Add gem summary here'
-  s.description = 'TODO: Add (optional) gem description here'
+  s.summary     = 'Generate packing labels that can be printed'
   s.required_ruby_version = '>= 2.0.0'
 
   s.author    = 'Dan Kirsche'
